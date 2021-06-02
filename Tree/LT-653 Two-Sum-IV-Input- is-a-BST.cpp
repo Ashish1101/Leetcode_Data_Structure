@@ -37,3 +37,8 @@ public:
     }
     
 };
+
+//another approach can be 
+//we store every node data in an unordered_set and then for every 
+//node check if set.find(sum - root->value) != s.end() then return true else
+//else push that node set
